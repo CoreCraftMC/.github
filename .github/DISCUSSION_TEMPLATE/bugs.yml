@@ -1,0 +1,28 @@
+title: Bug Report
+description: "Create a report to help us improve the plugin."
+labels: [ "type: bug" ]
+
+assignees:
+  - ryderbelserion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check previous issues as to avoid duplicate bug reports! If you find a duplicate, Reply to it.
+
+  - type: input
+    id: minecraft_ign
+    attributes:
+      label: Minecraft IGN
+      description: "What is your ingame name?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug
+    attributes:
+      label: "Describe the bug with how to reproduce it"
+      placeholder: "There is a snake in my boot."
+    validations:
+      required: true
